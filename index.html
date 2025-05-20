@@ -1,76 +1,65 @@
 <html>
 <head lang="en">
   <meta charset utf-8>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="images/icon.png"/>
   <link rel="stylesheet" type="text/css" href="style/main.css"/>
+  <script type="text/javascript" src="script/script.js"></script>
   <title>Igor Sinchuk</title>
-
-
-
   <link rel="icon"  type="image/icon" href="https://scontent.fiev9-1.fna.fbcdn.net/v/t1.0-1/p160x160/15697538_1146361185478542_7836678809240001607_n.jpg?_nc_cat=0&oh=7236e85eb4762d44698ae3055a990fc0&oe=5BF8E3DE"/>
 </head>
 
 <body>
 
-<div class="background">
-    <img src="images/wallpaper.jpg"/>
-    </div>
+  <div class="background">
+    <img id="background-img" src="images/wallpaper.jpg" alt="Background"/>
+  </div>
 
 <p class="myFont">
     <div class="outer">
     <div class="middle">
     <div class="inner">
 
+      <button id="theme-toggle" aria-label="Toggle theme">
+        <img id="theme-icon" src="images/icons/moon.png" alt="Toggle theme icon" />
+      </button>
+      
+
       <div class="name">
-            <span style="font-weight">Igor</span>    <span>Sinchuk</span>
+            <span style="font-weight">Igor Sinchuk</span>
         </div>
 
         <div class="line"></div>
 
         <div class="summery">
-          <span>Junior software developer</span>
+          <span>Manual QA Engineer</span>
           <br/>
           <span>Brief summary:</span>
       </div>
 
         <div class="bio">
-            <span>Hi! As you can see from my position title i'm a developer. Still junior but it is up to me.</span>
+            <span>Everyone wants to build something. I want to make sure it works.</span>
             <br/>
-            <span>I really love programming. This is very creative and challenging process. But i'm not afraid of it. </span>
+            <span>As a QA, I help products grow in the right direction — stable, user-friendly, and reliable.</span>
             <br/>
-            <span>Programming is major part of my life ofcourse however i have other.</span>
+            <span>My curiosity and persistence drive me to test, learn, and improve every day.</span>
         </div>
       </p>
-        <div class="icons">
-            <a href="https://drive.google.com/file/d/175uAcfGT7kDNQPfbDmV99vKwjcLRGNwL/view?usp=sharing"
-            id="cv" onclick="sendEvent(this)">
-            <img class="button" src="images/icons/cv.png" onMouseOver="hover(this)" onMouseOut="hoverOut(this)"/>
-          </a>
-
-
-            <a href="https://github.com/IgorSinchuk"
-            id="cv" onclick="sendEvent(this)">
-            <img class="button" src="images/icons/github.png" onMouseOver="hover(this)" onMouseOut="hoverOut(this)"/>
+        <div class="icons" >
+          
+          <a href="https://github.com/IgorSinchuk">
+            <img class="button" id="github-icon" src="images/icons/github-dark.png" alt="GitHub"/>
           </a>
 
 
 
-            <a href="https://www.linkedin.com/in/igorsinchuk/"
-               id="linkedin" onclick="sendEvent(this)">
-                <img class="button" src="images/icons/linkedin.png" onMouseOver="hoverIn(this)" onMouseOut="hoverOut(this)"/>
+            <a href="https://www.linkedin.com/in/igorsinchuk/">
+                <img class="button" id="linkedin-icon" src="images/icons/linkedin-dark.png" alt="LinkedIn"/>
             </a>
 
-
-
-            <a href="https://www.facebook.com/profile.php?id=100003140149327"
-               id="facebook" onclick="sendEvent(this)">
-                <img class="button" src="images/icons/facebook.png" onMouseOver="hoverIn(this)" onMouseOut="hoverOut(this)"/>
-            </a>
-
-
-            <a href="https://play.google.com/store/apps/developer?id=Nonexistent+ware&hl=en"
-               id="playmarket" onclick="sendEvent(this)">
-                <img class="button" src="images/icons/play.png" onMouseOver="hoverIn(this)" onMouseOut="hoverOut(this)"/>
+            <a href="mailto:igor.sinchuk@ukr.net?subject=Запит%20на%20резюме&body=Привіт,%20я%20хочу%20отримати%20твоє%20резюме." class="download-btn">
+            <img class="button" id="email-icon" src="images/icons/email-dark.png" alt="Email"/>
+              <!-- Запросити резюме -->
             </a>
 
         </div>
