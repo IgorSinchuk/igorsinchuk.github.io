@@ -236,4 +236,9 @@ body.dark-theme {
     transition: filter 0.3s ease, transform 0.3s ease;
     background: transparent;
   }
+
+  /* service link color */
+  .href-link {
+    color: red;
+  }
   
